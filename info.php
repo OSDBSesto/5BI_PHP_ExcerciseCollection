@@ -9,7 +9,7 @@
 
   $user = "mattia";
   $pass = "mattia";
-  if ($_POST["user"] == $user && $_POST["pwd"] == $user) {
+  if ($_POST["user"] == $user && $_POST["pwd"] == $pass) {
     echo "benvenuto" . $_POST["name"] . " " . $_POST["surname"];
   } else {
     echo "lei non è il benvenuto,
